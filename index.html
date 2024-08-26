@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sekolah - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="our-profile.html">Profil Kami</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <h1>Selamat Datang di Sekolah Kami</h1>
+    </div>
+
+    <div class="welcome">
+        <h2>Hi <span id="userName"></span>, Selamat Datang di Sekolah Kami</h2>
+    </div>
+
+    <div class="message-form">
+        <h2>Kirim Pesan</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="text" id="phone" name="phone" required><br>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+
+        <div id="formData"></div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
